@@ -72,7 +72,12 @@ a{
     text-align: center;
     font-size: 20px;
     color: rgb(0, 0, 0);
+    transition: 0.3s;
 
+}
+
+.top2 a:hover{
+        color: rgb(255, 0, 0);
 }
 
 .top2 a {
@@ -86,8 +91,14 @@ a{
     justify-content: center;
 }
 .button button{
+    background-color: rgb(41, 80, 255);
+    color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: 0.3s;
+}
+.button button:hover{
+    background-color: rgb(13, 0, 134);
 }
 
 .last,a{
@@ -95,4 +106,9 @@ a{
     text-align: center;
     font-size: 16px;
     color: black;
+    transition: 0.3s;
+}
+
+.last a:hover{
+    color: rgb(255, 0, 0);
 }
