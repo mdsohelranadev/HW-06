@@ -54,6 +54,7 @@ a{
     background-color: #ddd;
     height: 300px;
     width: 300px;
+    border-radius: 10px 0 10px 0px;
    
 }
 .top{
